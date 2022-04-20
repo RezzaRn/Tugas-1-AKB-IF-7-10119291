@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    tools:context=".activity_splash">
+
+    <!--20 april 2022, 10119291, Rezza Ramdhani Nashrullah, IF7-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/logo"
+        android:src="@drawable/ic_baseline_emoji_people_24"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="welcome"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#8BC34A"
+        />
+
+</RelativeLayout>

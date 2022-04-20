@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_profile"
+    android:layout_marginHorizontal="30dp"
+    android:orientation="vertical"
+    >
+
+    <!--20 april 2022, 10119291, Rezza Ramdhani Nashrullah, IF7-->
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profil"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Name is \n Rezza Ramdhani Nashrullah"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM \n 10119291"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="14dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class \n IF-7"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am currently a 6th semester informatics engineering student at the Indonesian computer university. I come from Garut and now I'm 21 years old, I have a hobby that is watching movies and playing games"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
